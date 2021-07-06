@@ -1,0 +1,67 @@
+.question{
+    margin-top: 9px;
+    background: #fefefe;
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.4);
+    padding: 24px;
+}
+
+
+.question p{
+    color: #29292e;
+}
+
+.question footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+}
+
+.question footer .user-info{
+    display: flex;
+    align-items: center;
+}
+
+.question footer .user-info img{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.question footer .user-info span{
+    margin-left: 8px;
+    color: #737380;
+    font-size: 14px;
+}
+
+.question footer button{
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    transition: filter 0.2s;
+
+}
+
+.question footer .like-button{
+    display: flex;
+    color: #737380;
+    align-items: flex-end;
+    
+}
+
+.question footer .like-button:hover{
+    filter: brightness(0.7);
+}
+
+.question footer svg{
+    margin-left: 8px;
+}
+
+.question footer .liked{
+    color: #835afd;
+}
+
+.question footer .liked svg path{
+    stroke: #835afd
+}
