@@ -80,7 +80,7 @@ export function AdminRoom(){
                             {!question.isAnswered && (
                                 <>
                                     <button type='button' onClick={()=> handleCheckQuestionAsAnswered(question.id)}>
-                                    <img src={checkImg} alt='Marcar pergunta como respondida'/>
+                                        <img src={checkImg} alt='Marcar pergunta como respondida'/>
                                     </button>
                                     <button type='button' onClick={()=> handleHighlightQuestion(question.id)}>
                                         <img src={answerImg} alt='Dar destaque à pergunta'/>
